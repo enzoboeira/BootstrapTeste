@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Card sem Bootstrap</title>
+
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .card {
+      width: 18rem;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-body {
+      padding: 16px;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .card-text {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 16px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      background-color: #0d6efd;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="card">
+      <img src="assets/img/OIP (1).webp" alt="Flor">
+      <div class="card-body">
+        <div class="card-title">Dinoflor aurudo</div>
+        <div class="card-text">
+          Altamente aurudo e perigoso
+        </div>
+        <a href="#" class="btn">Se clicar perde aura</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
